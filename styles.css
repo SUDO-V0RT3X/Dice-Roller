@@ -50,6 +50,22 @@ button:hover {
   background-color: rgb(1, 127, 43);
 }
 
+#clearRolls {
+  /* display: none; */
+  background-color: rgb(175, 3, 3);
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: rgb(79, 0, 0) solid;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#clearRolls:hover {
+  background-color: rgb(79, 0, 0);
+}
+
 ul {
   list-style: none;
   padding: 0;
